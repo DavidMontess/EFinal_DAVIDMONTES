@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EFinal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="jugador_title">Leonel Messi</string>
+    <string name="jugador_des">Equipo: PSG , Pais: Argentina</string>
+
+    <string name="jugador_title2">Cristiano Ronaldo</string>
+    <string name="jugador_des2">Equipo: Manchester United , Pais: Portugal</string>
+
+    <string name="jugador_title3">Kylian Mbappe</string>
+    <string name="jugador_des3">Equipo: PSG , Pais: Francia</string>
+
+    <string name="jugador_title4">Neymar Jr.</string>
+    <string name="jugador_des4">Equipo: PSG , Pais: Brasil</string>
+
+    <string name="jugador_title5">Robert Lewandowski</string>
+    <string name="jugador_des5">Equipo: Bayern de Munich , Pais: Polonia</string>
+
+    <string name="jugador_title6">Eden Hazard</string>
+    <string name="jugador_des6">Equipo: Real Madrid FC , Pais: Belgica</string>
+
+    <string name="jugador_title7">Antoine Griezmann</string>
+    <string name="jugador_des7">Equipo: Atletico de Madrid , Pais: Francia</string>
+
+    <string name="jugador_title8">Mohamed Salah</string>
+    <string name="jugador_des8">Equipo: Liverpool FC , Pais: Egipto</string>
+
+</resources>

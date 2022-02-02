@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JugadoresFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/app_bar"
+            style="@style/Widget.EFinal.Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:navigationIcon="@drawable/menu2"
+            app:title="@string/app_name"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/white"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/perfil_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingStart="25dp"
+                    android:layout_gravity="center"
+                    android:text="Ver Perfil"
+                    android:textAllCaps="false"
+                    android:paddingEnd="25dp"
+                    />
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/card2"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:layout_width="103dp"
+                        android:layout_height="107dp"
+                        android:layout_margin="8dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/mesi" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            android:text="@string/jugador_title"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="@string/jugador_des"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/card2"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="83dp"
+                        android:layout_margin="8dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/cr7" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            android:text="@string/jugador_title2"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="@string/jugador_des2"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/card2"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:layout_width="87dp"
+                        android:layout_height="64dp"
+                        android:layout_margin="8dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/mbappe" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            android:text="@string/jugador_title3"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="@string/jugador_des3"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/card2"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="83dp"
+                        android:layout_margin="8dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/neymar" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            android:text="@string/jugador_title4"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="@string/jugador_des4"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/card2"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="83dp"
+                        android:layout_margin="8dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/lewandowski" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            android:text="@string/jugador_title5"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="@string/jugador_des5"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/card2"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="83dp"
+                        android:layout_margin="8dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/hazard" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            android:text="@string/jugador_title6"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="@string/jugador_des6"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/card2"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="83dp"
+                        android:layout_margin="8dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/griezman" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            android:text="@string/jugador_title7"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="@string/jugador_des7"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/card2"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="83dp"
+                        android:layout_margin="8dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/salah" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            android:text="@string/jugador_title8"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:text="@string/jugador_des8"
+                            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </ScrollView>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!---
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/white"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        app:layout_behavior="Jugador">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.core.widget.NestedScrollView>
+    -->
+</FrameLayout>
